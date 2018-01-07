@@ -23,6 +23,7 @@
 
 (setq org-export-default-language "en"
       org-export-html-extension "html"
+      org-export-with-broken-links 'mark
       org-export-with-timestamps nil
       org-export-with-section-numbers nil
       org-export-with-tags 'not-in-toc
