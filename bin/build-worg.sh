@@ -2,7 +2,7 @@
 
 set -xe
 
-BUILD_DIR=${BUILD_DIR:-./build}
+export BUILD_DIR=${BUILD_DIR:-./build/}
 
 # create build directory if it doesn't exist
 mkdir -p "$BUILD_DIR"
