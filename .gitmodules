@@ -4,3 +4,6 @@
 [submodule "orgweb"]
 	path = orgweb
 	url = https://code.orgmode.org/bzg/orgweb.git
+[submodule "etc/vendor/emacs-htmlize"]
+	path = etc/vendor/emacs-htmlize
+	url = https://github.com/hniksic/emacs-htmlize
