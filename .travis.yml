@@ -1,5 +1,5 @@
 dist: trusty
 before_install:
   - sudo apt-get -qq update
-  - sudo apt-get install -y emacs
+  - sudo apt-get install -y emacs24
 script: ./bin/build-worg.sh
